@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adventure-Concessionária</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo"> Adventure-Concessionária </h1>
+        <p> PESQUISE UM CARRO </p>
+
+    </header>
+    <section>
+        <div>
+            <p> Ex: R$ 30.000 </p>
+            R$: <input type='number' name='txtValor' id='txtvalor' min='o'>
+            <p> Montadora: <br /> <br />
+            <div class="modelos">
+
+                <div>
+                    <input type='radio' name="radmod" id="fiat" checked>
+                    <label for='fia'> Fiat </label> </label>
+                </div>
+                <div>
+                    <input type='radio' name="radmod" id="volks">
+                    <label for="vol"> Volkswagem </label> </label>
+                </div>
+                <div>
+                    <input type='radio' name="radmod" id="toy">
+                    <label for="toy"> Toyota </label> </label>
+                </div>
+                <div>
+                    <input type='radio' name="radmod" id="hyun">
+                    <label for="hyu"> Hyunday </label> </label>
+                </div>
+                <div>
+                    <input type='radio' name="radmod" id="audy">
+                    <label for="aud"> Audi </label> </label>
+                </div>
+
+
+            </div>
+
+            </p>
+            <p>
+                <input type='button' value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados a cima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Fernando Gustavo </p>
+
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+    background: rgb(19, 128, 172);
+    font: normal 15pt Arial
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: snow;
+    border-radius: 18px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+
+@media (min-width: 375px) and (max-width: 426px){
+        
+    .modelos{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    section {
+        background: snow;
+        border-radius: 18px;
+        padding: 15px;
+        width: 90%;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+        
+    }
+
+    .titulo{
+        font: 12px;
+    }
+
+   
+}
